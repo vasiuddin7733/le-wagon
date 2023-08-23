@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/home/homeComponent1.css";
 
-const HomeComponent1 = () => {
+const Intro = () => {
   return (
     <div className="intro1">
       <div className="intro2">
@@ -37,4 +37,4 @@ const HomeComponent1 = () => {
   );
 };
 
-export default HomeComponent1;
+export default Intro;

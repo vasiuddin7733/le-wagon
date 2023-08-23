@@ -1,12 +1,12 @@
 import React from "react";
 import "../../styles/home/homeComponent4.css";
 import data from "./data";
-import ComponentBase from "./componentbase";
+import ComponentBase from "./ComponentBase";
 
 const data1 = data.slice(0, 3);
 const data2 = data.slice(3);
 
-const HomeComponent4 = () => {
+const Benefits = () => {
   return (
     <div className="flex flex-col justify-center items-center">
       <div>
@@ -34,4 +34,4 @@ const HomeComponent4 = () => {
   );
 };
 
-export default HomeComponent4;
+export default Benefits;

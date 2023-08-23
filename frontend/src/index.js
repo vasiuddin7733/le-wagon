@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Startseite from "./containers/startseite";
-import Users from "./containers/users";
+import {Startseite} from "./containers";
+import {Users} from "./containers";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
