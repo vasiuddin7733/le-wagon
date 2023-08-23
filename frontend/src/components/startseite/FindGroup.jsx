@@ -1,21 +1,15 @@
 import React from "react";
-import {
-  CarouselProvider,
-  Slider,
-  Slide,
-  ButtonBack,
-  ButtonNext,
-} from "pure-react-carousel";
+import { CarouselProvider, Slider, Slide } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
-import CarouselProviderbase from "./carouselproviderbase";
+import CarouselProviderbase from "./CarouselProviderBase";
 
-const homeComponent7 = () => {
+const FindGroup = () => {
   return (
     <div className="carouselprovidertop">
-      <div>
+      <div className="carouselprovider">
         <CarouselProvider
           naturalSlideWidth={100}
-          naturalSlideHeight={125}
+          naturalSlideHeight={25}
           totalSlides={3}
           isPlaying="false"
           interval={2000}
@@ -31,12 +25,10 @@ const homeComponent7 = () => {
               <CarouselProviderbase />
             </Slide>
           </Slider>
-          <ButtonBack>Back</ButtonBack>
-          <ButtonNext>Next</ButtonNext>
         </CarouselProvider>
       </div>
     </div>
   );
 };
 
-export default homeComponent7;
+export default FindGroup;

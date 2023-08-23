@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/home/homeComponent6.css";
 
-const HomeComponent6 = () => {
+const Price = () => {
   return (
     <div className="flex justify-center items-center ">
       <div className="kostenlostop">
@@ -35,4 +35,4 @@ const HomeComponent6 = () => {
   );
 };
 
-export default HomeComponent6;
+export default Price;

@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/home/homeComponent5.css";
 
-const HomeComponent5 = () => {
+const Group = () => {
   return (
     <div className="flex justify-center items-center">
       <div className="funktionierttop">
@@ -43,4 +43,4 @@ const HomeComponent5 = () => {
   );
 };
 
-export default HomeComponent5;
+export default Group;
