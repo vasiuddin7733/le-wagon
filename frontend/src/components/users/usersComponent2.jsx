@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const UsersComponent2 = () => {
-  return (
-    <div>component2</div>
-  )
-}
+  return <div>UsersComponent2</div>;
+};
 
-export default UsersComponent2
+export default UsersComponent2;
