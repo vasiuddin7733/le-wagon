@@ -3,7 +3,7 @@ import { HomeComponent1, HomeComponent2, HomeComponent3 } from "../components";
 
 const Startseite = () => {
   return (
-    <div>
+    <div className="bg-#FCFCFC space-y-24">
       <HomeComponent1 />
       <HomeComponent2 />
       <HomeComponent3 />
