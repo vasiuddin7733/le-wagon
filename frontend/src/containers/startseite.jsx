@@ -1,5 +1,10 @@
 import React from "react";
-import { HomeComponent1, HomeComponent2, HomeComponent3 } from "../components";
+import {
+  HomeComponent1,
+  HomeComponent2,
+  HomeComponent3,
+  HomeComponent4,
+} from "../components";
 
 const Startseite = () => {
   return (
@@ -7,6 +12,7 @@ const Startseite = () => {
       <HomeComponent1 />
       <HomeComponent2 />
       <HomeComponent3 />
+      <HomeComponent4 />
     </div>
   );
 };
