@@ -7,7 +7,7 @@ import {
   Price,
   FindGroup,
   Study,
-  Footer
+  Footer,
 } from "../components";
 
 const StartSeite = () => {

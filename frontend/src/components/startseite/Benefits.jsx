@@ -1,5 +1,4 @@
 import React from "react";
-import "../../styles/home/homeComponent4.css";
 import data from "./benefits-data";
 import BenefitsComp from "./BenefitsComp";
 
@@ -12,7 +11,7 @@ const Benefits = () => {
       <div>
         <p>Deine Vorteile mit we.together</p>
       </div>
-      <div className="space-x-10 vorteile pt-10">
+      <div className="flex justify-center items-center w-4/5 pt-10 space-x-10">
         {data1?.map((item, ind) => (
           <BenefitsComp
             number={item?.number}
@@ -21,7 +20,7 @@ const Benefits = () => {
           />
         ))}
       </div>
-      <div className="space-x-10 vorteile pt-10">
+      <div className="flex justify-center items-center w-4/5 space-x-10 pt-10">
         {data2?.map((item, ind) => (
           <BenefitsComp
             number={item?.number}
