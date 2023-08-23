@@ -6,6 +6,8 @@ import {
   HomeComponent4,
   HomeComponent5,
   HomeComponent6,
+  HomeComponent7,
+  HomeComponent8,
 } from "../components";
 
 const Startseite = () => {
@@ -17,6 +19,8 @@ const Startseite = () => {
       <HomeComponent4 />
       <HomeComponent5 />
       <HomeComponent6 />
+      <HomeComponent7 />
+      <HomeComponent8 />
     </div>
   );
 };
