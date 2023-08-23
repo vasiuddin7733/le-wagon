@@ -12,7 +12,7 @@ const HomeComponent4 = () => {
       <div>
         <p>Deine Vorteile mit we.together</p>
       </div>
-      <div className="space-x-10 vorteile">
+      <div className="space-x-10 vorteile pt-10">
         {data1?.map((item, ind) => (
           <ComponentBase
             number={item.number}
@@ -21,7 +21,7 @@ const HomeComponent4 = () => {
           />
         ))}
       </div>
-      <div className="space-x-10 vorteile">
+      <div className="space-x-10 vorteile pt-10">
         {data2?.map((item, ind) => (
           <ComponentBase
             number={item.number}

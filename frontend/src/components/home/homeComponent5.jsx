@@ -1,14 +1,41 @@
 import React from "react";
-import "../../styles/home/homeComponent3.css";
+import "../../styles/home/homeComponent5.css";
 
 const HomeComponent5 = () => {
   return (
-    <div className="torstentop">
-      <div className="torstentitletop">
-        <p className="torstentitle">
-          In der von Adrian gegründeten Gruppe, spricht Torsten über seine
-          Panikattacken und Merve fühlt sich endlich verstanden.
-        </p>
+    <div className="funktionierttop">
+      <div className="funktioniert">
+        <p>So funktioniert we.together</p>
+      </div>
+      <div>
+        <div className="flex space-y-10">
+          <img src="/home/old_man.png" width="50%" />
+          <div className="">
+            <p className="funktionierttitle">Finde deine Gruppe</p>
+            <p className="funktioniercontent">
+              Finde aus zahlreichen Gruppen, die passende(n) für Dich und
+              tausche Dich online, in regelmäßigen Terminen, mit anderen
+              Betroffene aus, die in der gleichen Situation sind wie Du.
+            </p>
+            <div className="">
+              <button className="funktioniertbutton">Gruppe finden</button>
+            </div>
+          </div>
+        </div>
+        <div className="flex">
+          <div>
+            <p className="funktionierttitle">Finde deine Gruppe</p>
+            <p lassName="funktioniercontent">
+              Finde aus zahlreichen Gruppen, die passende(n) für Dich und
+              tausche Dich online, in regelmäßigen Terminen, mit anderen
+              Betroffene aus, die in der gleichen Situation sind wie Du.
+            </p>
+            <div className="">
+              <button className="funktioniertbutton">Gruppe starten</button>
+            </div>
+          </div>
+          <img src="/home/gruppe.png" width="50%" />
+        </div>
       </div>
     </div>
   );
