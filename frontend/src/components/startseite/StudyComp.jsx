@@ -1,6 +1,6 @@
 import React from "react";
 
-const SelbstHilfeBase = ({ imgUrl, title, content }) => {
+const StudyComp = ({ imgUrl, title, content }) => {
   return (
     <div>
       <img src={imgUrl} />
@@ -10,4 +10,4 @@ const SelbstHilfeBase = ({ imgUrl, title, content }) => {
   );
 };
 
-export default SelbstHilfeBase;
+export default StudyComp;

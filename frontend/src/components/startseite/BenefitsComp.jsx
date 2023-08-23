@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/home/homeComponent4.css";
 
-const ComponentBase = ({ number, title, content }) => {
+const BenefitsComp = ({ number, title, content }) => {
   return (
     <div className="flex space-x-10 w-1/3">
       <p className="numbers">{number}</p>
@@ -13,4 +13,4 @@ const ComponentBase = ({ number, title, content }) => {
   );
 };
 
-export default ComponentBase;
+export default BenefitsComp;

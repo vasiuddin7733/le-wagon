@@ -1,6 +1,6 @@
 import React from "react";
 
-const CarouselProviderBase = () => {
+const FindGroupComp = () => {
   return (
     <div className="flex space-x-5">
       <div className="flex flex-col w-1/4">
@@ -35,4 +35,4 @@ const CarouselProviderBase = () => {
   );
 };
 
-export default CarouselProviderBase;
+export default FindGroupComp;

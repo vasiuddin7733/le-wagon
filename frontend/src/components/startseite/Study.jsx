@@ -1,5 +1,6 @@
 import React from "react";
-import SelbsthilfeBase from "./SelbstHilfeBase";
+import StudyComp from "./StudyComp";
+import data from "./study-data";
 
 const Study = () => {
   return (
@@ -7,13 +8,13 @@ const Study = () => {
       <div>
         <p>Gemeinsam Selbsthilfe ermöglichen</p>
       </div>
-      <SelbsthilfeBase
-        imgUrl="/home/min-an1.png"
-        title="Unsere Vision"
-        content="Wir wollen mit we.together Deutschlands führende digitale Selbsthilfe
-        Plattform schaffen, die jedem den Zugang zu der richtigen
-        Selbsthilfegruppe ermöglicht."
-      />
+      {data?.map((item, index) => (
+        <StudyComp
+          imgUrl={item?.imgUrl}
+          title={item?.title}
+          content={item?.content}
+        />
+      ))}
     </div>
   );
 };

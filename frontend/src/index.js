@@ -2,8 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import {Startseite} from "./containers";
-import {Users} from "./containers";
+import {StartSeite,Users} from "./containers";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,7 +14,7 @@ root.render(
   <BrowserRouter>
       <Switch>
         <Route exact path="/">
-          <Startseite />
+          <StartSeite />
         </Route>
         <Route path="/users">
           <Users />
