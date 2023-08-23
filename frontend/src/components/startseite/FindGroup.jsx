@@ -1,7 +1,7 @@
 import React from "react";
 import { CarouselProvider, Slider, Slide } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
-import CarouselProviderbase from "./CarouselProviderBase";
+import FindGroupComp from "./FindGroupComp";
 
 const FindGroup = () => {
   return (
@@ -16,13 +16,13 @@ const FindGroup = () => {
         >
           <Slider>
             <Slide index={0}>
-              <CarouselProviderbase />
+              <FindGroupComp />
             </Slide>
             <Slide index={1}>
-              <CarouselProviderbase />
+              <FindGroupComp />
             </Slide>
             <Slide index={2}>
-              <CarouselProviderbase />
+              <FindGroupComp />
             </Slide>
           </Slider>
         </CarouselProvider>
