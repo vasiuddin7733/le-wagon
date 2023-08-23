@@ -1,0 +1,41 @@
+.funktionierttop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.funktioniert{
+    width: 85%;
+    display: flex;
+    justify-content: left;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38.4px;
+}
+
+.funktionierttitle{
+    font-family: Helvetica Neue;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 24px;
+}
+.funktioniercontent{
+font-family: Helvetica Neue;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.funktioniertbutton{
+    color: #FCFCFC;
+    background-color: #ACD7EB;
+    ;
+    padding: 10px;
+    border-radius: 5px;
+    }
+    
