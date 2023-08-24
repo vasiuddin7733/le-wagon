@@ -24,7 +24,7 @@ const Group = () => {
                 Betroffene aus, die in der gleichen Situation sind wie Du.
               </p>
               <div className="">
-                <button className="text-[#FCFCFC] bg-[#ACD7EB] p-5 rounded-md">
+                <button className="text-[#FCFCFC] bg-[#ACD7EB] p-2 rounded-md">
                   Gruppe finden
                 </button>
               </div>
@@ -41,7 +41,7 @@ const Group = () => {
                 Betroffene aus, die in der gleichen Situation sind wie Du.
               </p>
               <div className="pb-10 lg:pb-0">
-                <button className="text-[#FCFCFC] bg-[#ACD7EB] p-5 rounded-md">
+                <button className="text-[#FCFCFC] bg-[#ACD7EB] p-2 rounded-md">
                   Gruppe starten
                 </button>
               </div>
