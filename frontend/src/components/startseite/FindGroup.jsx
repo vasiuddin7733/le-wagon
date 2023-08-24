@@ -6,10 +6,10 @@ import FindGroupComp from "./FindGroupComp";
 const FindGroup = () => {
   return (
     <div className="lg:flex justify-center items-center">
-      <div className="w-4/5">
+      <div className="w-full lg:w-4/5">
         <CarouselProvider
           naturalSlideWidth={100}
-          naturalSlideHeight={25}
+          naturalSlideHeight={30}
           totalSlides={3}
           isPlaying="false"
           interval={2000}
