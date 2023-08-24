@@ -38,18 +38,18 @@ const Intro = () => {
                 </button>
               </div>
             </div>
-            <div className="flex flex-col lg:flex-row justify-center items-center lg:p-2">
-              <div>
-                <div className="bg-[#ACD7EB] h-24 mb-5 lg:mr-5 rounded-md"></div>
-                <div className="">
-                  <img src="/home/intro-frau1.png"></img>
+            <div className="flex flex-col lg:flex-row lg:justify-center lg:items-center lg:p-2">
+              <div className="flex flex-col">
+                <div className="bg-[#ACD7EB] h-20 mb-5 lg:mr-5 rounded-md"></div>
+                <div>
+                  <img src="/home/intro-frau1.png" width="100%"></img>
                 </div>
-                <div className="lg:pr-5 pb-5">
-                  <img src="/home/intro-frau2.png"></img>
+                <div className="lg:pr-5 py-5">
+                  <img src="/home/intro-frau2.png" width="100%"></img>
                 </div>
               </div>
               <div className="lg:pr-5">
-                <img src="/home/intro-mann1.png"></img>
+                <img src="/home/intro-mann1.png" width="100%"></img>
               </div>
             </div>
           </div>

@@ -12,7 +12,7 @@ import {
 
 const StartSeite = () => {
   return (
-    <div className="bg-#FCFCFC space-y-24 break-normal">
+    <div className="bg-#FCFCFC space-y-5 lg:space-y-10 break-normal">
       <Intro />
       <Sponsor />
       <Benefits />
