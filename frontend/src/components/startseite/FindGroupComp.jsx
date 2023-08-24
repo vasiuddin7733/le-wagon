@@ -1,36 +1,34 @@
 import React from "react";
 
 const FindGroupComp = () => {
+  const FindGroupComp1 = ({ imgUrl, title, cssClass }) => (
+    <div className={`lg:flex lg:flex-col w-full lg:w-1/4 ${cssClass}`}>
+      <img src={imgUrl} />
+      <div className="flex lg:justify-around">
+        <p>{title}</p>
+        <img src="/home/arrow.png" />
+      </div>
+    </div>
+  );
+
   return (
-    <div className="lg:flex space-x-5">
-      <div className="lg:flex lg:flex-col w-1/4">
-        <img src="/home/min-an4.png" />
-        <div className="lg:flex justify-around">
-          <p>Depressionsgruppen</p>
-          <img src="/home/arrow.png" />
-        </div>
-      </div>
-      <div className="lg:flex lg:flex-col w-1/4">
-        <img src="/home/lil-artsy.png" />
-        <div className="lg:flex justify-around">
-          <p>Trauergruppen</p>
-          <img src="/home/arrow.png" />
-        </div>
-      </div>
-      <div className="lg:flex lg:flex-col w-1/4">
-        <img src="/home/liza-summer.png" />
-        <div className="lg:flex justify-around">
-          <p>Gruppen für Angehörige </p>
-          <img src="/home/arrow.png" />
-        </div>
-      </div>
-      <div className="lg:flex lg:flex-col w-1/4 h-full">
-        <img src="/home/min-an1.png" />
-        <div className="lg:flex justify-around">
-          <p>Alle Gruppen anzeigen</p>
-          <img src="/home/arrow.png" />
-        </div>
-      </div>
+    <div className="w-full flex lg:space-x-5">
+      <FindGroupComp1 imgUrl="/home/min-an4.png" title="Depressionsgruppen" />
+      <FindGroupComp1
+        imgUrl="/home/lil-artsy.png"
+        title="Trauergruppen"
+        cssClass="hidden md:flex"
+      />
+      <FindGroupComp1
+        imgUrl="/home/liza-summer.png"
+        title="Angehörige"
+        cssClass="hidden lg:flex"
+      />
+      <FindGroupComp1
+        imgUrl="/home/min-an1.png"
+        title="anzeigen"
+        cssClass="hidden lg:flex"
+      />
     </div>
   );
 };

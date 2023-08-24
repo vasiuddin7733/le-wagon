@@ -2,7 +2,7 @@ import React from 'react'
 
 const Gruppen = () => {
   return (
-    <div>Gruppen</div>
+    <div className="flex justify-center items-center pt-96 text-5xl text-red-500">Gruppen</div>
   )
 }
 

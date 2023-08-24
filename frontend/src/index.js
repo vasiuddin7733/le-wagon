@@ -16,6 +16,9 @@ root.render(
         <Route exact path="/">
           <StartSeite />
         </Route>
+        <Route exact path="/startseite">
+          <StartSeite />
+        </Route>
         <Route path="/users">
           <Users />
         </Route>
