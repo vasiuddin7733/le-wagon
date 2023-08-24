@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import {StartSeite,Users} from "./containers";
+import {StartSeite,Users,Gruppen,Blog,PreisÜbersicht,Überuns} from "./containers";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,6 +15,21 @@ root.render(
       <Switch>
         <Route exact path="/">
           <StartSeite />
+        </Route>
+        <Route path="/users">
+          <Users />
+        </Route>
+        <Route path="/gruppen">
+          <Gruppen />
+        </Route>
+        <Route path="/blog">
+          <Blog />
+        </Route>
+        <Route path="/preisübersicht">
+          <PreisÜbersicht />
+        </Route>
+        <Route path="/uber-uns">
+          <Überuns />
         </Route>
         <Route path="/users">
           <Users />
