@@ -7,11 +7,11 @@ const data2 = data.slice(3);
 
 const Benefits = () => {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="lg:flex lg:flex-col justify-center items-center">
       <div>
         <p>Deine Vorteile mit we.together</p>
       </div>
-      <div className="flex justify-center items-center w-4/5 pt-10 space-x-10">
+      <div className="lg:flex justify-center items-center w-4/5 pt-10 space-x-10">
         {data1?.map((item, ind) => (
           <BenefitsComp
             number={item?.number}
@@ -20,7 +20,7 @@ const Benefits = () => {
           />
         ))}
       </div>
-      <div className="flex justify-center items-center w-4/5 space-x-10 pt-10">
+      <div className="lg:flex justify-center items-center w-4/5 space-x-10 pt-10">
         {data2?.map((item, ind) => (
           <BenefitsComp
             number={item?.number}

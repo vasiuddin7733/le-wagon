@@ -2,9 +2,9 @@ import React from "react";
 
 const Price = () => {
   return (
-    <div className="flex justify-center items-center ">
-      <div className="flex flex-col justify-center items-center w-4/5 h-[30rem] bg-[#F9F5E6] ">
-        <div className="flex flex-col justify-center items-center w-1/2 pt-10 space-y-5">
+    <div className="lg:flex justify-center items-center ">
+      <div className="lg:flex lg:flex-col justify-center items-center w-4/5 h-[30rem] bg-[#F9F5E6] ">
+        <div className="lg:flex lg:flex-col justify-center items-center w-1/2 pt-10 space-y-5">
           <p className="text-2xl font-medium left-5 text-left">
             Ein monatlicher Preis - unlimitierter Zugang zu Gruppen
           </p>
@@ -13,7 +13,7 @@ const Price = () => {
             € / Monat an unbegrenzt vielen Gruppen teilnehmen.
           </p>
 
-          <div className="flex h-18 p-10 bg-[#FCFCFC] border-[#9AC0D1]">
+          <div className="lg:flex h-18 p-10 bg-[#FCFCFC] border-[#9AC0D1]">
             <div>
               <img src="/home/small-tree.png" />
             </div>

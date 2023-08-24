@@ -5,7 +5,7 @@ import FindGroupComp from "./FindGroupComp";
 
 const FindGroup = () => {
   return (
-    <div className="flex justify-center items-center">
+    <div className="lg:flex justify-center items-center">
       <div className="w-4/5">
         <CarouselProvider
           naturalSlideWidth={100}

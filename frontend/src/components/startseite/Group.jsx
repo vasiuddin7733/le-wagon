@@ -2,13 +2,13 @@ import React from "react";
 
 const Group = () => {
   return (
-    <div className="flex justify-center items-center">
-      <div className="flex flex-col justify-center items-center w-4/5">
-        <div className="flex justify-start text-2xl font-medium left-7 ">
+    <div className="lg:flex justify-center items-center">
+      <div className="lg:flex lg:flex-col justify-center items-center w-4/5">
+        <div className="lg:flex justify-start text-2xl font-medium left-7 ">
           <p>So funktioniert we.together</p>
         </div>
         <div>
-          <div className="flex space-y-10">
+          <div className="lg:flex space-y-10">
             <img src="/home/old_man.png" width="50%" />
             <div className="">
               <p className="text-4xl font-medium left-6 text-left pt-10">
@@ -26,7 +26,7 @@ const Group = () => {
               </div>
             </div>
           </div>
-          <div className="flex">
+          <div className="lg:flex">
             <div>
               <p className="text-4xl font-medium left-6 text-left pt-10">
                 Finde deine Gruppe

@@ -5,7 +5,7 @@ import data from "./study-data";
 const Study = () => {
   return (
     <div>
-      <div className="flex flex-col justify-start items-start">
+      <div className="lg:flex lg:flex-col justify-start items-start">
         <p>Gemeinsam Selbsthilfe ermöglichen</p>
       </div>
       <div className="lg:flex lg:flex-col lg:justify-center lg:items-center">
