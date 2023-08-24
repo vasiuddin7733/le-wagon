@@ -3,4 +3,8 @@ export { default as Users } from "./Users";
 export { default as Blog } from "./Blog";
 export { default as Gruppen } from "./Gruppen";
 export { default as PreisÜbersicht } from "./PreisÜbersicht";
+export { default as Impressum } from "./Impressum";
+export { default as Datenschutz } from "./Datenschutz";
+export { default as AGB } from "./AGB";
+export { default as Wiederufsrecht } from "./Wiederufsrecht";
 export { default as Überuns } from "./Überuns";
