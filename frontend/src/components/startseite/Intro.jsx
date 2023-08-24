@@ -5,11 +5,11 @@ const Intro = () => {
     <div className="w-full bg-[#F8F9FA] text-center lg:text-left">
       <div className="w-full lg:flex justify-between px-5 md:px-7 lg:px-12">
         <div className="pt-10 space-x-5">
-          <a>Startseite</a>
-          <a>Gruppen</a>
-          <a>Blog</a>
-          <a>Preisübersicht</a>
-          <a>Über uns</a>
+          <a href="/startseite">Startseite</a>
+          <a href="/gruppen">Gruppen</a>
+          <a href="/blog">Blog</a>
+          <a href="preisübersicht">Preisübersicht</a>
+          <a href="uber-uns">Über uns</a>
         </div>
         <div className="lg:flex space-x-5 pt-10 pb-10 lg:pb-0">
           <p>Anmelden</p>
