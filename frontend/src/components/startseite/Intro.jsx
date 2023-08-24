@@ -13,6 +13,9 @@ const Intro = () => {
         </div>
         <img src="/home/together.png" />
         <div className="lg:flex space-x-5 pt-10 pb-10 lg:pb-0">
+          <div className="w-48 border-2 rounded-md text-[#8590A6] px-2">
+            Gruppe suchen
+          </div>
           <p>Anmelden</p>
           <div className="">
             <button className="text-[#FCFCFC] bg-[#A64D79] p-1 rounded-md">
