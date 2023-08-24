@@ -11,6 +11,7 @@ const Intro = () => {
           <a href="preisübersicht">Preisübersicht</a>
           <a href="uber-uns">Über uns</a>
         </div>
+        <img src="/home/together.png" />
         <div className="lg:flex space-x-5 pt-10 pb-10 lg:pb-0">
           <p>Anmelden</p>
           <div className="">
